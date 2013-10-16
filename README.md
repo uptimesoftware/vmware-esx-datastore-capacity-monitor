@@ -7,21 +7,21 @@ See http://uptimesoftware.github.io for more information.
 
 ### Category
 
-{ page.category }}
+storage
 
 ### Version Compatibility
 
 
   
-    * VMware ESX Datastore Capacity Monitor 2.2 - 7.2, 7.1
+* VMware ESX Datastore Capacity Monitor 2.2 - 7.2, 7.1
   
 
   
-    * VMware ESX Datastore Capacity Monitor 2.1 - 6.0
+* VMware ESX Datastore Capacity Monitor 2.1 - 6.0
   
 
   
-    * VMware ESX Datastore Capacity Monitor 1.0 - 5.5, 5.4, 5.3
+* VMware ESX Datastore Capacity Monitor 1.0 - 5.5, 5.4, 5.3
   
 
 
@@ -45,12 +45,17 @@ None; no agent required
 
 
 ### Input Variables
+
 * datastore capacity by percentage worst offender
+
 
 ### Output Variables
 
+
 * used capacity percentage (%)
 
+
 ### Languages Used
+
 * Java
 
