@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uptime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"        
+        xsi:schemaLocation="http://www.uptimesoftware.com/erdc/erdc erdc.xsd"        
+        xmlns:upt="http://www.uptimesoftware.com/erdc/erdc"        
+        xmlns="http://www.uptimesoftware.com/erdc/erdc" version="4.0" target_grouping="non-agent">
+    
+    <class>VMware Datastore Capacity</class>    
+    <exec>com.uptimesoftware.uptime.erdc.MonitorVMwareDatastoreCapacity</exec>    
+    <elements>
+        
+        
+        <element name="worstOffenderFSCapacity" parameter_type="output" data_type="integer" gui_basic="1" range_type="0" units="%">
+            <control_options>size:4</control_options>            
+            <default_value/>
+            <short_description>Used Capacity (%)</short_description>            
+            <long_description>Used Capacity (%)</long_description>            
+            <validation_rule/>
+            <error_message/>                
+            <gui_type>                
+                <integer/>                
+            </gui_type>            
+        </element> 
+        <element name="timer" parameter_type="output" data_type="integer" gui_basic="0" range_type="0" units="ms">
+            <control_options>size:8</control_options>
+            <default_value/>
+            <short_description>Response time</short_description>
+            <long_description>Response time in ms</long_description>
+            <validation_rule/>
+            <error_message/>
+            <gui_type>
+                <integer/>
+            </gui_type>
+        </element>
+        
+        
+    </elements>
+    
+    <help>This is a sample template for a custom WMI monitor driven by XML only</help>
+    
+</uptime>

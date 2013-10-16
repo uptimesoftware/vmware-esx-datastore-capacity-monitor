@@ -1,0 +1,8 @@
+name=VMware Datastore Capacity
+version=2.1
+platforms=windows linux solaris
+description=Monitor VMware ESXi datastore capacity usage worst offender by percentage.
+requiresAgentScript=false
+restartCore=true
+onUpgradeRemoveFiles=true
+onUpgradeRemoveMonitors=false
