@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uptime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0" target_grouping="other">
+    <class>VMware ESX Datastore Capacity Monitor</class>    
+    <exec>com.uptimesoftware.uptime.erdc.MonitorVMwareDatastoreCapacity</exec>    
+    <erdc_version>2.4</erdc_version>
+    <category>VM Monitors</category>
+    <category_related>Storage Monitors</category_related>
+    <grid_info>
+        <supported_versions>7.2,7.3,7.4,7.5,7.6,7.7,7.8</supported_versions>
+        <supported_platforms>windows, linux</supported_platforms>
+        <upgrade_in_place>true</upgrade_in_place>
+        <requires_agent_scripts>false</requires_agent_scripts>
+    </grid_info>
+    <elements>
+        <element name="worstOffenderFSCapacity" parameter_type="output" data_type="integer" gui_basic="1" range_type="0" units="%">
+            <control_options>size:4</control_options>            
+            <default_value/>
+            <short_description>Used Capacity (%)</short_description>            
+            <long_description>Used Capacity (%)</long_description>            
+            <validation_rule/>
+            <error_message/>                
+            <gui_type>                
+                <integer/>                
+            </gui_type>            
+        </element> 
+        <element name="timer" parameter_type="output" data_type="integer" gui_basic="0" range_type="0" units="ms">
+            <control_options>size:8</control_options>
+            <default_value/>
+            <short_description>Response time</short_description>
+            <long_description>Response time in ms</long_description>
+            <validation_rule/>
+            <error_message/>
+            <gui_type>
+                <integer/>
+            </gui_type>
+        </element>
+        
+        
+    </elements>
+    
+    <help>This is a sample template for a custom WMI monitor driven by XML only</help>
+    
+</uptime>
