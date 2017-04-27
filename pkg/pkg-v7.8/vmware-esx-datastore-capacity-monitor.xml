@@ -33,11 +33,7 @@
             <gui_type>
                 <integer/>
             </gui_type>
-        </element>
-        
-        
-    </elements>
-    
-    <help>This is a sample template for a custom WMI monitor driven by XML only</help>
-    
+        </element> 
+    </elements>  
+    <help>Monitor consumption on your VMware datastores</help>
 </uptime>
